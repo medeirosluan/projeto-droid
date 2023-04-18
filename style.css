@@ -73,6 +73,8 @@ main p {
 .imagem img {
     display: block;
     margin: auto;
+    width: 100%;
+    
 }
 
 .imagem1 h2 {
@@ -87,12 +89,14 @@ main p {
     display: block;
     margin: auto;
     margin-top: 15px;
+    width: 100%;
 }
 
 .imagem2 img{
     margin: auto;
     display: block;
     margin-top: 15px;
+    width: 100%;
 }
 
 .video iframe{
