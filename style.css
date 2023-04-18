@@ -3,6 +3,8 @@
     src: url(./fontes/idroid.otf) format('opentype');
 }
 
+
+
 * {
     padding: 0;
     margin: 0;
@@ -42,11 +44,15 @@ nav a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+a:visited {
+    color: rgb(10, 10, 10);
+}
+
  a:hover {
     background-color: rgba(255, 255, 255, 0.527);
     border-radius: 7px;
     color: black;
-    font-weight: 800;
+    font-weight: 900;
    
 }
 
@@ -117,7 +123,9 @@ main p {
     margin: auto;
     display: block;
     margin-top: 17px;
-    width: 100%;
+    width: 98%;
+    border: 7px solid rgb(40, 146, 63);
+    border-radius: 5px;
 }
 
 .tabela {
@@ -166,6 +174,9 @@ footer p {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+
 
 
 
