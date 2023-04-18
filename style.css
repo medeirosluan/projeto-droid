@@ -3,7 +3,7 @@
     src: url(./fontes/idroid.otf) format('opentype');
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -31,26 +31,37 @@ header p{
     text-align: center;
 }
 
+
 nav {
     margin: 17px 0 0;  
 }
 
 nav a {
-    margin-left: 10px;
+    padding: 4px 8px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+ a:hover {
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 7px;
+    color: black;
+    font-weight: 800;
+   
+}
+
 main {
-    max-width: 840px;
+    max-width: 900px;
     margin: auto;
     background-color: white;
     padding: 30px;
     border-radius: 0 0 10px 10px;
+    box-shadow: 0px 3px 12px #0000002e;
 }
 
 main h1 {
     font-family: droid;
+    color: green;
 
     
 }
@@ -60,6 +71,7 @@ main p {
     margin-top: 15px;
     text-align: justify;
     text-indent: 20px;
+  
 }
 
 .imagem h2 {
@@ -67,6 +79,7 @@ main p {
     background-image: linear-gradient(to right, rgba(0, 128, 0, 0.452), white);
     padding-left: 10px;
     margin-top: 15px;
+    color: rgba(0, 128, 0, 0.774);
     
 }
 
@@ -82,6 +95,7 @@ main p {
     background-image: linear-gradient(to right, rgba(0, 128, 0, 0.452), white);
     padding-left: 10px;
     margin-top: 15px;
+    color: rgba(0, 128, 0, 0.774);
 
 }
 
@@ -96,7 +110,7 @@ main p {
     margin: auto;
     display: block;
     margin-top: 15px;
-    width: 100%;
+   
 }
 
 .video iframe{
@@ -109,10 +123,7 @@ main p {
 .tabela {
     background-color: rgba(60, 151, 60, 0.253);
     border-radius: 10px;
-    margin-top: 15px;
-    padding-bottom: 18px;
-    
-    
+    margin-top: 20px;
 }
 
 .tabela h3 {
@@ -121,11 +132,13 @@ main p {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 10px 10px 0 0 ;
+    
 }
 
 .tabela p {
     text-align: justify;
     margin: 10px 10px;
+    padding: 20px;
 }
 
 .tabela ul {
@@ -134,8 +147,10 @@ main p {
 
 .tabela li {
     list-style: none;
-    margin-left: 15px;
+    margin-left: 20px;
     line-height: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     
 }
 
