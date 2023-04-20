@@ -44,7 +44,7 @@ nav a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a:visited {
+a:visited:not(.creditos) {
     color: rgb(10, 10, 10);
 }
 
@@ -55,6 +55,8 @@ a:visited {
     font-weight: 900;
    
 }
+
+
 
 main {
     max-width: 900px;
@@ -161,7 +163,17 @@ main p {
 
     
 }
+p {
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+a#creditos:hover {
+    background-color: rgba(0, 0, 255, 0.336);
+   
+    
+}
 footer {
     text-align: center;
     background-color: rgb(16, 65, 16);
