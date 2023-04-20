@@ -163,17 +163,7 @@ main p {
 
     
 }
-p {
-    padding: 10px 0;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
-a#creditos:hover {
-    background-color: rgba(0, 0, 255, 0.336);
-   
-    
-}
 footer {
     text-align: center;
     background-color: rgb(16, 65, 16);
@@ -185,6 +175,10 @@ footer {
 footer p {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a.creditos{
+    color: white;
 }
 
 
