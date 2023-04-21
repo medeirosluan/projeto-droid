@@ -177,7 +177,7 @@ a.creditos{
     color: white;
 }
 
-@media screen and (max-width:710px){
+@media screen and (max-width:992px){
     main h1{
         font-size: 1.7em;
     }
