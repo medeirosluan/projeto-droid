@@ -44,10 +44,6 @@ nav a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a:visited:not(.creditos) {
-    color: rgb(10, 10, 10);
-}
-
  a:hover {
     background-color: rgba(255, 255, 255, 0.527);
     border-radius: 7px;
