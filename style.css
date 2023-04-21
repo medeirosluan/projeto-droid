@@ -177,6 +177,50 @@ a.creditos{
     color: white;
 }
 
+@media screen and (max-width:710px){
+    main h1{
+        font-size: 1.7em;
+    }
+}
+@media screen and (max-width:608px){
+    main h1{
+        font-size: 1.4em;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+   nav{
+      text-align: center;
+       
+    }
+
+    main h1{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .imagem h2{
+        font-size: 1em;
+        text-align: center;
+        background: none;
+        color: green;
+
+    }
+    .imagem1 h2{
+        font-size: 1em;
+        text-align: center;
+        background: none;
+        color: green;
+
+    }
+}
+
+@media screen and (max-width:380px) {
+    main h1{
+        font-size: 1em;
+    }
+}
 
 
 
