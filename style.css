@@ -203,6 +203,12 @@ a.creditos{
         height: 220px;
     }
 
+    .tabela p {
+        text-align: justify;
+        padding: 5px 10px;
+    }
+    
+
     
   
 }
