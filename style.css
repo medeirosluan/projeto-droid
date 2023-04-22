@@ -185,7 +185,7 @@ a.creditos{
     }
 
     .imagem1 h2, .imagem h2 {
-        font-size: 1.2em;
+        font-size: 1.3em;
         background: none;
         text-align: center;
     }
@@ -206,6 +206,10 @@ a.creditos{
     .tabela p {
         text-align: justify;
         padding: 5px 10px;
+    }
+
+    footer {
+        display: none;
     }
     
 
