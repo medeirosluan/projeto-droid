@@ -8,214 +8,101 @@
 * {
     padding: 0;
     margin: 0;
+   
 }
 
 body {
-    background-color: #70be7079;
-}
-
-header {
-    background-image: linear-gradient(to bottom, green, white);
-    padding: 50px 0 10px;
-   
-}
-header h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-variant: small-caps;
-    text-align: center;
-    font-size: 4em;
-}
-
-header p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    margin-top:3px ;
-    text-align: center;
-}
-
-
-nav {
-    margin: 17px 0 0;  
-}
-
-nav a {
-    padding: 4px 8px;
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
- a:hover {
-    background-color: rgba(255, 255, 255, 0.527);
-    border-radius: 7px;
-    color: black;
-    font-weight: 900;
-   
-}
-
-
-
-main {
-    max-width: 900px;
-    margin: auto;
-    background-color: white;
-    padding: 30px;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0px 3px 12px #0000002e;
-}
-
-main h1 {
-    font-family: droid;
-    color: green;
-
+    background-color: antiquewhite;
     
 }
 
-main p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 15px;
-    text-align: justify;
-    text-indent: 20px;
-  
+.cabecalo {
+  background-color: chocolate;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+ 
 }
 
-.imagem h2 {
-    font-family: droid;
-    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.452), white);
-    padding-left: 10px;
-    margin-top: 15px;
-    color: rgba(0, 128, 0, 0.774);
-    
+.cabecalo > .cabecalo__titulo, .cabecalo__paragrafo {
+    display: none;
 }
 
-.imagem img {
-    display: block;
-    margin: auto;
-    width: 100%;
-    
-}
-
-.imagem1 h2 {
-    font-family: droid;
-    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.452), white);
-    padding-left: 10px;
-    margin-top: 15px;
-    color: rgba(0, 128, 0, 0.774);
-
-}
-
-.imagem1 img {
-    display: block;
-    margin: auto;
-    margin-top: 15px;
-    width: 100%;
-}
-
-.imagem2 img{
-    margin: auto;
-    display: block;
-    margin-top: 15px;
-   
-}
-
-.video iframe{
-    margin: auto;
-    display: block;
-    margin-top: 17px;
-    width: 98%;
-    border: 7px solid rgb(40, 146, 63);
-    border-radius: 5px;
-}
-
-.tabela {
-    background-color: rgba(60, 151, 60, 0.253);
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-.tabela h3 {
-    background-color: rgba(9, 143, 9, 0.705);
-    padding: 10px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 10px 10px 0 0 ;
-    
-}
-
-.tabela p {
-    text-align: justify;
-    margin: 10px 10px;
-    padding: 20px;
-}
-
-.tabela ul {
-    columns: 2;
-}
-
-.tabela li {
-    list-style: none;
-    margin-left: 20px;
-    line-height: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    
-}
-
-footer {
-    text-align: center;
-    background-color: rgb(16, 65, 16);
-    margin: auto;
-    padding: 6px;
+.navegacao {
     margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
-footer p {
+.navegacao a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
     color: white;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+}
+
+.principal p {
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.principal h1, h2 {
+    text-align: center;
+    padding-top: 6px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a.creditos{
-    color: white;
+.principal img {
+    display: block;
+    width: 100%;
+    margin: 10px 0 10px;
 }
 
-
-@media screen and (max-width:390px) {
-    main h1 {
-        font-size:1.5em ;
-    }
-
-    .imagem1 h2, .imagem h2 {
-        font-size: 1.3em;
-        background: none;
-        text-align: center;
-    }
-
-    header h1 {
-        font-size: 2.8em;
-    }
-
-    .navegacao {
-        text-align: center;
-    }
-
-    .video iframe{
-        width: 96%;
-        height: 220px;
-    }
-
-    .tabela p {
-        text-align: justify;
-        padding: 5px 10px;
-    }
-
-    footer {
-        display: none;
-    }
-    
-
-    
-  
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    max-width: 100%;
+    height: 0;
 }
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 10px;
+}
+
+div {
+    margin: 10px;
+}
+
+@media screen and (min-width:816px) {
+    .principal {
+        margin: auto;
+        box-shadow: 0px -1px 4px 0px;
+    }
+
+    .link:hover {
+        background-color: rgba(240, 248, 255, 0.288);
+        color: rgb(255, 255, 255);
+       
+
+       
+        
+    }
+    
+}
+
 
 
 
